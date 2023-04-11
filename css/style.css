@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.integer-input {
+    margin-right: 10px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.converted-data {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: green;
+}
